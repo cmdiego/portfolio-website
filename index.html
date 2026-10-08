@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diego Conterno — Embedded Software Engineer</title>
+  <meta name="description" content="Diego Conterno is an embedded software engineer focused on wireless systems, audio, embedded Linux, Bluetooth, and developer tooling." />
+  <meta name="theme-color" content="#0a110e" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ───────────── NAV ───────────── -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">DIEGO_CONTERNO</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav__links" aria-label="Primary">
+        <a href="#home" data-nav="home">01. HOME</a>
+        <a href="#work" data-nav="work">02. WORK</a>
+        <a href="#projects" data-nav="projects">03. PROJECTS</a>
+        <a href="#lab" data-nav="lab">04. LAB</a>
+        <a href="#about" data-nav="about">05. ABOUT</a>
+        <a href="#contact" data-nav="contact">06. CONTACT</a>
+        <span class="nav__indicator" aria-hidden="true"></span>
+      </nav>
+      <a href="resume.pdf" class="btn btn--ghost btn--sm nav__resume" target="_blank" rel="noopener">RESUME <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ───────────── 01 HOME ───────────── -->
+    <section id="home" class="section" data-section>
+      <div class="wrap">
+        <div class="panel hero reveal">
+          <p class="eyebrow">// 00 — HOME</p>
+          <div class="hero__grid">
+            <h1 class="display">
+              I BUILD<br />SOFTWARE<br />FOR THINGS<br /><span class="accent">THAT SHIP.</span><span class="cursor" aria-hidden="true"></span>
+            </h1>
+            <div class="hero__side">
+              <p class="lede">Embedded software engineer focused on wireless systems, audio, embedded Linux, Bluetooth, and developer tooling.</p>
+              <div class="hero__ctas">
+                <a href="#projects" class="btn btn--solid">VIEW PROJECTS <span aria-hidden="true">→</span></a>
+                <a href="resume.pdf" class="btn btn--ghost" download>DOWNLOAD RESUME <span aria-hidden="true">↘</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="panel reveal">
+            <p class="panel__title">// SYS_STATUS</p>
+            <dl class="kv">
+              <dt>ROLE</dt><dd>Embedded Software Engineer</dd>
+              <dt>LOCATION</dt><dd>Seattle, WA</dd>
+              <dt>FOCUS</dt><dd>Wireless · Audio · Linux · Tools</dd>
+              <dt>STATUS</dt><dd><span class="dot dot--live"></span>Available for opportunities</dd>
+              <dt>UPTIME</dt><dd><span id="uptime">00:00:00</span></dd>
+            </dl>
+          </div>
+          <div class="panel reveal">
+            <p class="panel__title">// RECENT_COMMITS</p>
+            <p class="prompt">$ git log --portfolio -n 4</p>
+            <ul class="commits" id="commits">
+              <li><span class="hash">a81f0c</span><span>feat: real-time wireless data collection</span></li>
+              <li><span class="hash">87bd11</span><span>feat: keyword spotting integration</span></li>
+              <li><span class="hash">ce93a4</span><span>proto: ChatGPT voice assistant</span></li>
+              <li><span class="hash">019aac</span><span>lab: audio + music technology experiments</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel reveal">
+          <div class="panel__head">
+            <p class="panel__title">// FEATURED_PROJECTS</p>
+            <p class="muted small" id="featured-count">02/04</p>
+          </div>
+          <div class="cards cards--featured" id="featured"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 02 WORK ───────────── -->
+    <section id="work" class="section" data-section>
+      <div class="wrap">
+        <div class="panel section-head reveal">
+          <p class="eyebrow">// 02 — WORK</p>
+          <div class="section-head__grid">
+            <h2 class="display">EXPERIENCE<br />LOG<span class="accent">.</span></h2>
+            <p class="lede">A timeline of professional experience focused on embedded systems, wireless technologies, and developer tools.</p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <ol class="timeline" id="timeline">
+            <span class="timeline__track" aria-hidden="true"><span class="timeline__progress"></span></span>
+
+            <li class="tl-item reveal is-current">
+              <span class="tl-node" aria-hidden="true"></span>
+              <div class="tl-meta">
+                <p class="tl-date">2022 — PRESENT</p>
+                <h3 class="tl-role">Embedded Software Engineer</h3>
+                <p class="tl-org">Company Name · Seattle, WA</p>
+              </div>
+              <div class="tl-body">
+                <p>Developing wireless and embedded systems for real-world products. Focus on Bluetooth, audio, and Linux-based platforms.</p>
+                <ul class="tags"><li>EMBEDDED</li><li>BLUETOOTH</li><li>LINUX</li><li>AUDIO</li></ul>
+              </div>
+            </li>
+
+            <li class="tl-item reveal">
+              <span class="tl-node" aria-hidden="true"></span>
+              <div class="tl-meta">
+                <p class="tl-date">2020 — 2022</p>
+                <h3 class="tl-role">Software Engineer</h3>
+                <p class="tl-org">Company Name · Remote</p>
+              </div>
+              <div class="tl-body">
+                <p>Built developer tools and infrastructure for embedded systems. Worked on cross-platform tooling and automation.</p>
+                <ul class="tags"><li>TOOLS</li><li>AUTOMATION</li><li>PYTHON</li><li>LINUX</li></ul>
+              </div>
+            </li>
+
+            <li class="tl-item reveal">
+              <span class="tl-node" aria-hidden="true"></span>
+              <div class="tl-meta">
+                <p class="tl-date">2018 — 2020</p>
+                <h3 class="tl-role">Research Assistant</h3>
+                <p class="tl-org">University Name · City, ST</p>
+              </div>
+              <div class="tl-body">
+                <p>Research in audio signal processing and machine learning for embedded devices.</p>
+                <ul class="tags"><li>AUDIO</li><li>ML</li><li>EMBEDDED</li><li>RESEARCH</li></ul>
+              </div>
+            </li>
+
+            <li class="tl-end reveal" aria-hidden="true">
+              <span class="tl-node tl-node--hollow"></span>
+              <span class="muted small">$ init career --from=curiosity</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 03 PROJECTS ───────────── -->
+    <section id="projects" class="section" data-section>
+      <div class="wrap">
+        <div class="panel section-head reveal">
+          <p class="eyebrow">// 03 — PROJECTS</p>
+          <div class="section-head__grid">
+            <h2 class="display">SHIPPED<br /><span class="accent">CODE.</span></h2>
+            <p class="lede">A collection of selected work ranging from embedded systems to audio and developer tools. Each project includes background, key decisions, and real-world outcomes.</p>
+          </div>
+        </div>
+
+        <div class="filters reveal" role="toolbar" aria-label="Filter projects" id="filters">
+          <button class="filter is-active" data-filter="all" aria-pressed="true">ALL</button>
+          <button class="filter" data-filter="EMBEDDED" aria-pressed="false">EMBEDDED</button>
+          <button class="filter" data-filter="AUDIO" aria-pressed="false">AUDIO</button>
+          <button class="filter" data-filter="LINUX" aria-pressed="false">LINUX</button>
+          <button class="filter" data-filter="TOOLS" aria-pressed="false">TOOLS</button>
+          <button class="filter" data-filter="EXPERIMENTAL" aria-pressed="false">EXPERIMENTAL</button>
+        </div>
+
+        <div class="cards cards--grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <!-- ───────────── 04 LAB ───────────── -->
+    <section id="lab" class="section" data-section>
+      <div class="wrap">
+        <div class="panel section-head reveal">
+          <p class="eyebrow">// 04 — LAB</p>
+          <div class="section-head__grid">
+            <h2 class="display">SIDE<br /><span class="accent">QUESTS.</span></h2>
+            <p class="lede">Prototypes, experiments, and half-finished ideas. Not everything here ships — but everything here teaches something.</p>
+          </div>
+        </div>
+
+        <div class="panel reveal">
+          <div class="lab-head muted small">
+            <span>ID</span><span>EXPERIMENT</span><span>STACK</span><span>STATUS</span>
+          </div>
+          <ul class="lab">
+            <li>
+              <span class="lab__id">LAB-07</span>
+              <span class="lab__name">Voice assistant prototype<em>ChatGPT + wake word on a Raspberry Pi</em></span>
+              <span class="lab__stack">PYTHON · ALSA</span>
+              <span class="lab__status lab__status--live">● RUNNING</span>
+            </li>
+            <li>
+              <span class="lab__id">LAB-06</span>
+              <span class="lab__name">MIDI-reactive LED strip<em>Audio-to-light mapping over BLE MIDI</em></span>
+              <span class="lab__stack">C · NRF52</span>
+              <span class="lab__status lab__status--live">● RUNNING</span>
+            </li>
+            <li>
+              <span class="lab__id">LAB-05</span>
+              <span class="lab__name">Granular looper pedal<em>Real-time granular synthesis experiments</em></span>
+              <span class="lab__stack">C++ · DSP</span>
+              <span class="lab__status">◐ PAUSED</span>
+            </li>
+            <li>
+              <span class="lab__id">LAB-04</span>
+              <span class="lab__name">Serial log visualizer<em>Live plotting for UART streams in the terminal</em></span>
+              <span class="lab__stack">RUST · TUI</span>
+              <span class="lab__status lab__status--done">✓ ARCHIVED</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 05 ABOUT ───────────── -->
+    <section id="about" class="section" data-section>
+      <div class="wrap">
+        <div class="panel section-head reveal">
+          <p class="eyebrow">// 05 — ABOUT</p>
+          <div class="section-head__grid">
+            <h2 class="display">ENGINEERING<br />&amp; BEYOND<span class="accent">.</span></h2>
+            <p class="lede">I'm an embedded software engineer with a passion for building practical technology that solves real problems. I enjoy working at the intersection of hardware, software, and user experience.</p>
+          </div>
+        </div>
+
+        <div class="about">
+          <figure class="panel portrait reveal">
+            <div class="portrait__bar">
+              <span>// PORTRAIT.JPG</span>
+              <span class="muted">933×1100</span>
+            </div>
+            <div class="portrait__frame">
+              <img src="assets/diego-portrait.jpg" alt="Portrait of Diego Conterno" width="933" height="1100" loading="lazy" />
+              <span class="portrait__tint" aria-hidden="true"></span>
+              <span class="portrait__scan" aria-hidden="true"></span>
+              <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
+              <span class="corner corner--bl"></span><span class="corner corner--br"></span>
+            </div>
+            <figcaption class="portrait__cap">
+              <span>DIEGO CONTERNO</span>
+              <span class="muted">SEATTLE, WA <span class="dot dot--live"></span></span>
+            </figcaption>
+          </figure>
+
+          <div class="about__cols">
+            <div class="panel reveal">
+              <p class="panel__title">// INTERESTS</p>
+              <ul class="arrows">
+                <li>Embedded Systems</li>
+                <li>Wireless Technologies</li>
+                <li>Audio &amp; Music Technology</li>
+                <li>Open Source Tools</li>
+                <li>Linux and Systems Programming</li>
+              </ul>
+            </div>
+            <div class="panel reveal">
+              <p class="panel__title">// OUTSIDE_OF_WORK</p>
+              <p class="muted">When I'm not coding, you can find me:</p>
+              <ul class="arrows">
+                <li>Playing guitar and exploring music technology</li>
+                <li>Hiking in the Pacific Northwest</li>
+                <li>Experimenting with new hardware and tools</li>
+                <li>Reading about technology and design</li>
+              </ul>
+            </div>
+            <div class="panel reveal about__toolbox">
+              <p class="panel__title">// TOOLBOX</p>
+              <ul class="tags">
+                <li>C</li><li>C++</li><li>PYTHON</li><li>RUST</li><li>ZEPHYR</li><li>FREERTOS</li>
+                <li>YOCTO</li><li>BLE</li><li>ALSA</li><li>DSP</li><li>GIT</li><li>CI/CD</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 06 CONTACT ───────────── -->
+    <section id="contact" class="section" data-section>
+      <div class="wrap">
+        <div class="panel section-head reveal">
+          <p class="eyebrow">// 06 — CONTACT</p>
+          <div class="section-head__grid">
+            <h2 class="display">LET'S<br />BUILD<br />SOMETHING<span class="accent">.</span></h2>
+            <p class="lede">I'm always open to discussing new opportunities, interesting projects, or just talking about technology.</p>
+          </div>
+        </div>
+
+        <div class="grid-2 grid-2--wide">
+          <div class="panel reveal">
+            <p class="panel__title">// CONTACT_INFO</p>
+            <ul class="contact">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z M3 6l9 7 9-7" /></svg>
+                <span class="muted">Email</span>
+                <a href="mailto:diego@example.com" class="copy" data-copy="diego@example.com">diego@example.com</a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" /></svg>
+                <span class="muted">GitHub</span>
+                <a href="https://github.com/diegoconterno" target="_blank" rel="noopener">github.com/diegoconterno</a>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4v11H4z M6 4.5a2 2 0 1 1 0 .1 M11 9h4v1.5c.6-1 2-1.8 3.5-1.8 2.5 0 3.5 1.6 3.5 4.3v7h-4v-6.2c0-1.3-.5-2-1.6-2s-1.9.8-1.9 2V20h-3.5z" /></svg>
+                <span class="muted">LinkedIn</span>
+                <a href="https://linkedin.com/in/diegoconterno" target="_blank" rel="noopener">linkedin.com/in/diegoconterno</a>
+              </li>
+            </ul>
+          </div>
+          <div class="panel reveal">
+            <p class="panel__title">// STATUS</p>
+            <p class="status-line"><span class="dot dot--live"></span><span class="accent">Available for opportunities</span></p>
+            <p class="muted status-sub">Open to full-time roles, contract work, and interesting projects.</p>
+            <a href="mailto:diego@example.com" class="btn btn--solid btn--block">SEND A MESSAGE <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> DIEGO CONTERNO</span>
+          <span class="muted">BUILT WITH HTML, CSS &amp; TOO MUCH COFFEE</span>
+          <a href="#home" class="muted">BACK TO TOP ↑</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────────── PROJECT CASE STUDY (expanded card) ───────────── -->
+  <div class="case" id="case" role="dialog" aria-modal="true" aria-labelledby="case-title" hidden>
+    <div class="case__scroll">
+      <div class="wrap">
+        <div class="case__topbar">
+          <button class="btn btn--ghost btn--sm" data-close>← BACK TO PROJECTS</button>
+          <div class="case__pager">
+            <button class="btn btn--ghost btn--sm" data-step="-1" aria-label="Previous project">←</button>
+            <span class="muted small" id="case-index">01/04</span>
+            <button class="btn btn--ghost btn--sm" data-step="1" aria-label="Next project">→</button>
+            <button class="btn btn--ghost btn--sm case__x" data-close aria-label="Close">✕</button>
+          </div>
+        </div>
+        <div class="panel case__hero">
+          <div class="case__intro">
+            <p class="eyebrow" id="case-crumb">// 03 — PROJECTS / HYDRA</p>
+            <h2 class="display display--case" id="case-title">HYDRA</h2>
+            <p class="lede" id="case-tagline"></p>
+            <ul class="tags" id="case-tags"></ul>
+          </div>
+          <div class="case__media" id="case-media"></div>
+        </div>
+        <div class="case__body">
+          <nav class="case__nav" id="case-nav" role="tablist" aria-label="Case study sections"></nav>
+          <div class="panel case__content" id="case-content" role="tabpanel"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

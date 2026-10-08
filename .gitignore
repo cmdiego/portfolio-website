@@ -1,0 +1,7 @@
+# Source / reference files (site uses assets/diego-portrait.jpg)
+DiegoConterno_2843.jpg
+portfolio-visual-reference.png
+
+# Local tooling
+.claude/
+.DS_Store
