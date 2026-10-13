@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Diego Conterno — Embedded Software Engineer</title>
-  <meta name="description" content="Diego Conterno is an embedded software engineer focused on wireless systems, audio, embedded Linux, Bluetooth, and developer tooling." />
+  <meta name="description" content="Diego Conterno is an embedded software engineer at Bose specializing in wearable audio systems, firmware architecture, Bluetooth, and DSP/ML integration." />
   <meta name="theme-color" content="#0a110e" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +30,7 @@
         <a href="#contact" data-nav="contact">06. CONTACT</a>
         <span class="nav__indicator" aria-hidden="true"></span>
       </nav>
-      <a href="resume.pdf" class="btn btn--ghost btn--sm nav__resume" target="_blank" rel="noopener">RESUME <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/in/diegoconterno" class="btn btn--ghost btn--sm nav__resume" target="_blank" rel="noopener">LINKEDIN <span aria-hidden="true">↗</span></a>
     </div>
   </header>
 
@@ -46,10 +46,10 @@
               I BUILD<br />SOFTWARE<br />FOR THINGS<br /><span class="accent">THAT SHIP.</span><span class="cursor" aria-hidden="true"></span>
             </h1>
             <div class="hero__side">
-              <p class="lede">Embedded software engineer focused on wireless systems, audio, embedded Linux, Bluetooth, and developer tooling.</p>
+              <p class="lede">Embedded software engineer at Bose, specializing in wearable audio systems, firmware architecture, Bluetooth, and DSP/ML integration — C/C++ on RTOS and Embedded Linux.</p>
               <div class="hero__ctas">
                 <a href="#projects" class="btn btn--solid">VIEW PROJECTS <span aria-hidden="true">→</span></a>
-                <a href="resume.pdf" class="btn btn--ghost" download>DOWNLOAD RESUME <span aria-hidden="true">↘</span></a>
+                <a href="https://github.com/cmdiego" class="btn btn--ghost" target="_blank" rel="noopener">GITHUB <span aria-hidden="true">↗</span></a>
               </div>
             </div>
           </div>
@@ -59,21 +59,26 @@
           <div class="panel reveal">
             <p class="panel__title">// SYS_STATUS</p>
             <dl class="kv">
-              <dt>ROLE</dt><dd>Embedded Software Engineer</dd>
-              <dt>LOCATION</dt><dd>Seattle, WA</dd>
-              <dt>FOCUS</dt><dd>Wireless · Audio · Linux · Tools</dd>
-              <dt>STATUS</dt><dd><span class="dot dot--live"></span>Available for opportunities</dd>
-              <dt>UPTIME</dt><dd><span id="uptime">00:00:00</span></dd>
+              <dt>ROLE</dt><dd>Embedded Software Engineer II</dd>
+              <dt>COMPANY</dt><dd>Bose · Pre-Development</dd>
+              <dt>LOCATION</dt><dd>Massachusetts</dd>
+              <dt>FOCUS</dt><dd>Wearable Audio · Bluetooth · DSP/ML</dd>
+              <dt>IN INDUSTRY</dt><dd id="tenure">4y</dd>
+              <dt>NOW HACKING</dt><dd><span class="dot dot--live"></span><a id="now-repo" class="link" href="https://github.com/cmdiego/ableton_live_mcp" target="_blank" rel="noopener">ableton_live_mcp</a></dd>
             </dl>
           </div>
           <div class="panel reveal">
-            <p class="panel__title">// RECENT_COMMITS</p>
-            <p class="prompt">$ git log --portfolio -n 4</p>
+            <div class="panel__head">
+              <p class="panel__title">// RECENT_COMMITS</p>
+              <span class="live-badge" id="commits-badge">CACHED</span>
+            </div>
+            <p class="prompt">$ git log --author=cmdiego -n 4</p>
+            <!-- Fallback; replaced live from the GitHub API by script.js -->
             <ul class="commits" id="commits">
-              <li><span class="hash">a81f0c</span><span>feat: real-time wireless data collection</span></li>
-              <li><span class="hash">87bd11</span><span>feat: keyword spotting integration</span></li>
-              <li><span class="hash">ce93a4</span><span>proto: ChatGPT voice assistant</span></li>
-              <li><span class="hash">019aac</span><span>lab: audio + music technology experiments</span></li>
+              <li><a class="hash" href="https://github.com/cmdiego/ableton_live_mcp/commit/7c201b1" target="_blank" rel="noopener">7c201b1</a><span class="commit__msg">Release v0.1.1</span><span class="commit__repo">ableton_live_mcp</span></li>
+              <li><a class="hash" href="https://github.com/cmdiego/raylib-cpp-game-template/commit/e9c9d70" target="_blank" rel="noopener">e9c9d70</a><span class="commit__msg">Run MenuScene through Game and fix its rendering and music</span><span class="commit__repo">raylib-cpp-game-template</span></li>
+              <li><a class="hash" href="https://github.com/cmdiego/ableton_live_mcp/commit/67a5b2b" target="_blank" rel="noopener">67a5b2b</a><span class="commit__msg">Remove agent config files with a machine-specific path</span><span class="commit__repo">ableton_live_mcp</span></li>
+              <li><a class="hash" href="https://github.com/cmdiego/sample-manager/commit/37cce61" target="_blank" rel="noopener">37cce61</a><span class="commit__msg">Initial commit</span><span class="commit__repo">sample-manager</span></li>
             </ul>
           </div>
         </div>
@@ -81,7 +86,7 @@
         <div class="panel reveal">
           <div class="panel__head">
             <p class="panel__title">// FEATURED_PROJECTS</p>
-            <p class="muted small" id="featured-count">02/04</p>
+            <p class="muted small" id="featured-count"></p>
           </div>
           <div class="cards cards--featured" id="featured"></div>
         </div>
@@ -95,7 +100,7 @@
           <p class="eyebrow">// 02 — WORK</p>
           <div class="section-head__grid">
             <h2 class="display">EXPERIENCE<br />LOG<span class="accent">.</span></h2>
-            <p class="lede">A timeline of professional experience focused on embedded systems, wireless technologies, and developer tools.</p>
+            <p class="lede">From wireless mesh networks at Honeywell to wearable audio prototypes at Bose — firmware, Bluetooth, and the tools that make them easier to build.</p>
           </div>
         </div>
 
@@ -106,39 +111,86 @@
             <li class="tl-item reveal is-current">
               <span class="tl-node" aria-hidden="true"></span>
               <div class="tl-meta">
-                <p class="tl-date">2022 — PRESENT</p>
-                <h3 class="tl-role">Embedded Software Engineer</h3>
-                <p class="tl-org">Company Name · Seattle, WA</p>
+                <p class="tl-date">NOV 2022 — PRESENT</p>
+                <h3 class="tl-role">Embedded Software Engineer II</h3>
+                <p class="tl-org">Bose · Pre-Development &amp; Sound Management</p>
               </div>
               <div class="tl-body">
-                <p>Developing wireless and embedded systems for real-world products. Focus on Bluetooth, audio, and Linux-based platforms.</p>
-                <ul class="tags"><li>EMBEDDED</li><li>BLUETOOTH</li><li>LINUX</li><li>AUDIO</li></ul>
+                <p>Architecting and building firmware/software prototypes for wearable products alongside Research, UX, Product, and Product Development teams. Owner of an internal wireless data collection platform used across all wearables.</p>
+                <ul class="tags"><li>C/C++</li><li>BLUETOOTH</li><li>DSP/ML</li><li>EMBEDDED LINUX</li><li>FREERTOS</li></ul>
+              </div>
+              <button class="tl-toggle" aria-expanded="false" aria-controls="tl-bose"><span class="tl-toggle__icon" aria-hidden="true">+</span> DETAILS</button>
+              <div class="tl-details" id="tl-bose">
+                <div class="tl-details__inner">
+                  <div>
+                    <p class="tl-sub">PRE-DEVELOPMENT TEAM</p>
+                    <ul class="arrows">
+                      <li>Architected and implemented firmware/software prototypes for wearable products with Research, UX/UR, Product, and Product Development</li>
+                      <li>Owned and enhanced an internal wireless data collection platform supporting all wearable products on a shared multi-repo stack</li>
+                      <li>Translated evolving research and stakeholder feedback into technical requirements and working prototypes</li>
+                      <li>Onboarded and mentored 2 co-ops and 1 intern through task planning, architecture guidance, and code reviews</li>
+                    </ul>
+                    <p class="tl-sub">PROTOTYPES</p>
+                    <ul class="tl-projects">
+                      <li><button data-open="hydra">HYDRA</button> real-time wireless data collection</li>
+                      <li><button data-open="katamari">KATAMARI</button> keyword spotting</li>
+                      <li><button data-open="speak2chat">SPEAK2CHAT</button> speech detection</li>
+                      <li><button data-open="camilo">CAMILO</button> content detection &amp; adaptive EQ</li>
+                      <li><button data-open="samantha">SAMANTHA</button> ChatGPT voice assistant</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p class="tl-sub">SOUND MANAGEMENT TEAM</p>
+                    <ul class="arrows">
+                      <li>Evaluated DMA capabilities of a new SoC under FreeRTOS, validating performance, reliability, and driver readiness</li>
+                      <li>Built a Python validation tool for interleaved and non-interleaved DMA audio streams</li>
+                      <li>Wrote a Python CLI on FlashCenter APIs to automate firmware flashing for custom dev boards</li>
+                      <li>Integrated third-party DSP libraries into the ANR processing pipeline with DSP engineers</li>
+                      <li>Automated C and Python utilities to monitor memory utilization and verify dev environments</li>
+                    </ul>
+                    <p class="tl-sub">BOSE DSP COURSE</p>
+                    <ul class="arrows">
+                      <li>Designed and presented a BPM analyzer using MATLAB and proprietary DSP APIs</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </li>
 
             <li class="tl-item reveal">
               <span class="tl-node" aria-hidden="true"></span>
               <div class="tl-meta">
-                <p class="tl-date">2020 — 2022</p>
-                <h3 class="tl-role">Software Engineer</h3>
-                <p class="tl-org">Company Name · Remote</p>
+                <p class="tl-date">MAR 2022 — NOV 2022</p>
+                <h3 class="tl-role">Embedded Systems Engineer I</h3>
+                <p class="tl-org">Honeywell · IoT Advanced Technology (Wireless)</p>
               </div>
               <div class="tl-body">
-                <p>Built developer tools and infrastructure for embedded systems. Worked on cross-platform tooling and automation.</p>
-                <ul class="tags"><li>TOOLS</li><li>AUTOMATION</li><li>PYTHON</li><li>LINUX</li></ul>
+                <p>Wireless firmware and field tooling for ISA100 industrial mesh networks — state machines, packet sniffing, and topology visualization.</p>
+                <ul class="tags"><li>ISA100</li><li>STATE MACHINES</li><li>ANDROID</li><li>PYTHON</li></ul>
+              </div>
+              <button class="tl-toggle" aria-expanded="false" aria-controls="tl-honeywell"><span class="tl-toggle__icon" aria-hidden="true">+</span> DETAILS</button>
+              <div class="tl-details" id="tl-honeywell">
+                <div class="tl-details__inner tl-details__inner--single">
+                  <ul class="arrows">
+                    <li>Improved the hierarchical state machine behind the router's connection routine — fewer states and less time spent inside ISRs</li>
+                    <li>Reverse-engineered an IP router into an ISA100 wireless packet sniffer, accelerating RSSI characterization and field QA</li>
+                    <li>Developed an Android visualization tool for real-time mesh network topology monitoring, enabling faster field diagnostics</li>
+                    <li>Automated IDE log analysis with Python, reducing debugging effort and speeding up issue investigation</li>
+                  </ul>
+                </div>
               </div>
             </li>
 
             <li class="tl-item reveal">
               <span class="tl-node" aria-hidden="true"></span>
               <div class="tl-meta">
-                <p class="tl-date">2018 — 2020</p>
-                <h3 class="tl-role">Research Assistant</h3>
-                <p class="tl-org">University Name · City, ST</p>
+                <p class="tl-date">GRADUATED DEC 2021</p>
+                <h3 class="tl-role">B.S. Computer Engineering</h3>
+                <p class="tl-org">University of Central Florida · Orlando, FL</p>
               </div>
               <div class="tl-body">
-                <p>Research in audio signal processing and machine learning for embedded devices.</p>
-                <ul class="tags"><li>AUDIO</li><li>ML</li><li>EMBEDDED</li><li>RESEARCH</li></ul>
+                <p>President of the Audio Engineering Society (AES) UCF student branch. Senior Design: ADEPT.</p>
+                <ul class="tags"><li>COMPUTER ENGINEERING</li><li>AES</li><li>LEADERSHIP</li></ul>
               </div>
             </li>
 
@@ -158,17 +210,19 @@
           <p class="eyebrow">// 03 — PROJECTS</p>
           <div class="section-head__grid">
             <h2 class="display">SHIPPED<br /><span class="accent">CODE.</span></h2>
-            <p class="lede">A collection of selected work ranging from embedded systems to audio and developer tools. Each project includes background, key decisions, and real-world outcomes.</p>
+            <p class="lede">Professional prototypes from Bose's Pre-Development team, plus open-source projects from my GitHub. Open any card for the full breakdown.</p>
           </div>
         </div>
 
         <div class="filters reveal" role="toolbar" aria-label="Filter projects" id="filters">
           <button class="filter is-active" data-filter="all" aria-pressed="true">ALL</button>
-          <button class="filter" data-filter="EMBEDDED" aria-pressed="false">EMBEDDED</button>
+          <button class="filter" data-filter="professional" aria-pressed="false">PROFESSIONAL</button>
+          <button class="filter" data-filter="personal" aria-pressed="false">PERSONAL</button>
+          <span class="filters__sep" aria-hidden="true"></span>
           <button class="filter" data-filter="AUDIO" aria-pressed="false">AUDIO</button>
-          <button class="filter" data-filter="LINUX" aria-pressed="false">LINUX</button>
+          <button class="filter" data-filter="BLUETOOTH" aria-pressed="false">BLUETOOTH</button>
+          <button class="filter" data-filter="ML" aria-pressed="false">ML</button>
           <button class="filter" data-filter="TOOLS" aria-pressed="false">TOOLS</button>
-          <button class="filter" data-filter="EXPERIMENTAL" aria-pressed="false">EXPERIMENTAL</button>
         </div>
 
         <div class="cards cards--grid" id="project-grid"></div>
@@ -181,41 +235,16 @@
         <div class="panel section-head reveal">
           <p class="eyebrow">// 04 — LAB</p>
           <div class="section-head__grid">
-            <h2 class="display">SIDE<br /><span class="accent">QUESTS.</span></h2>
-            <p class="lede">Prototypes, experiments, and half-finished ideas. Not everything here ships — but everything here teaches something.</p>
+            <h2 class="display">ON THE<br /><span class="accent">BENCH.</span></h2>
+            <p class="lede">Hardware and firmware side projects, built on my own time and separate from my professional work. Write-ups are on the way.</p>
           </div>
         </div>
 
         <div class="panel reveal">
           <div class="lab-head muted small">
-            <span>ID</span><span>EXPERIMENT</span><span>STACK</span><span>STATUS</span>
+            <span>ID</span><span>PROJECT</span><span>PLATFORM</span><span>STATUS</span>
           </div>
-          <ul class="lab">
-            <li>
-              <span class="lab__id">LAB-07</span>
-              <span class="lab__name">Voice assistant prototype<em>ChatGPT + wake word on a Raspberry Pi</em></span>
-              <span class="lab__stack">PYTHON · ALSA</span>
-              <span class="lab__status lab__status--live">● RUNNING</span>
-            </li>
-            <li>
-              <span class="lab__id">LAB-06</span>
-              <span class="lab__name">MIDI-reactive LED strip<em>Audio-to-light mapping over BLE MIDI</em></span>
-              <span class="lab__stack">C · NRF52</span>
-              <span class="lab__status lab__status--live">● RUNNING</span>
-            </li>
-            <li>
-              <span class="lab__id">LAB-05</span>
-              <span class="lab__name">Granular looper pedal<em>Real-time granular synthesis experiments</em></span>
-              <span class="lab__stack">C++ · DSP</span>
-              <span class="lab__status">◐ PAUSED</span>
-            </li>
-            <li>
-              <span class="lab__id">LAB-04</span>
-              <span class="lab__name">Serial log visualizer<em>Live plotting for UART streams in the terminal</em></span>
-              <span class="lab__stack">RUST · TUI</span>
-              <span class="lab__status lab__status--done">✓ ARCHIVED</span>
-            </li>
-          </ul>
+          <ul class="lab" id="lab-list"></ul>
         </div>
       </div>
     </section>
@@ -227,7 +256,7 @@
           <p class="eyebrow">// 05 — ABOUT</p>
           <div class="section-head__grid">
             <h2 class="display">ENGINEERING<br />&amp; BEYOND<span class="accent">.</span></h2>
-            <p class="lede">I'm an embedded software engineer with a passion for building practical technology that solves real problems. I enjoy working at the intersection of hardware, software, and user experience.</p>
+            <p class="lede">I'm an embedded software engineer on Bose's Pre-Development team, turning research ideas into working wearable prototypes. I like the space where hardware, software, and sound meet — and outside of work I build tools for making music.</p>
           </div>
         </div>
 
@@ -246,7 +275,7 @@
             </div>
             <figcaption class="portrait__cap">
               <span>DIEGO CONTERNO</span>
-              <span class="muted">SEATTLE, WA <span class="dot dot--live"></span></span>
+              <span class="muted">MASSACHUSETTS <span class="dot dot--live"></span></span>
             </figcaption>
           </figure>
 
@@ -254,29 +283,34 @@
             <div class="panel reveal">
               <p class="panel__title">// INTERESTS</p>
               <ul class="arrows">
-                <li>Embedded Systems</li>
-                <li>Wireless Technologies</li>
-                <li>Audio &amp; Music Technology</li>
-                <li>Open Source Tools</li>
-                <li>Linux and Systems Programming</li>
+                <li>Wearable audio &amp; DSP/ML integration</li>
+                <li>Bluetooth Classic, LE &amp; LE Audio</li>
+                <li>Embedded Linux &amp; RTOS firmware</li>
+                <li>Music technology &amp; production tools</li>
+                <li>Rapid prototyping</li>
               </ul>
             </div>
             <div class="panel reveal">
-              <p class="panel__title">// OUTSIDE_OF_WORK</p>
-              <p class="muted">When I'm not coding, you can find me:</p>
+              <p class="panel__title">// BEYOND_WORK</p>
               <ul class="arrows">
-                <li>Playing guitar and exploring music technology</li>
-                <li>Hiking in the Pacific Northwest</li>
-                <li>Experimenting with new hardware and tools</li>
-                <li>Reading about technology and design</li>
+                <li>Building music tools — an Ableton Live MCP server and a sample manager</li>
+                <li>Hardware side projects on nRF52 and STM32 boards</li>
+                <li>Game dev experiments in C++ with raylib</li>
+                <li>Co-chair, Hispanic Heritage ERG at Bose</li>
+                <li>Former president, AES UCF student branch</li>
               </ul>
             </div>
             <div class="panel reveal about__toolbox">
               <p class="panel__title">// TOOLBOX</p>
-              <ul class="tags">
-                <li>C</li><li>C++</li><li>PYTHON</li><li>RUST</li><li>ZEPHYR</li><li>FREERTOS</li>
-                <li>YOCTO</li><li>BLE</li><li>ALSA</li><li>DSP</li><li>GIT</li><li>CI/CD</li>
-              </ul>
+              <dl class="kv kv--wide">
+                <dt>LANGUAGES</dt><dd>C · C++ · Python · MATLAB</dd>
+                <dt>PLATFORMS</dt><dd>STM32 · Nordic nRF52 · PSoC 5 &amp; 6 · Raspberry Pi</dd>
+                <dt>RTOS &amp; OS</dt><dd>FreeRTOS · Zephyr · Embedded Linux (Yocto) · Android</dd>
+                <dt>WIRELESS</dt><dd>Bluetooth Classic · BLE · LE Audio · UART · I2S · I2C · SPI</dd>
+                <dt>DEBUG</dt><dd>Oscilloscope · Logic analyzer · Ellisys Bluetooth analyzer</dd>
+                <dt>PROCESS</dt><dd>Jira · Confluence · Azure DevOps · Agile</dd>
+                <dt>SPOKEN</dt><dd>Spanish (native) · English (fluent)</dd>
+              </dl>
             </div>
           </div>
         </div>
@@ -290,7 +324,7 @@
           <p class="eyebrow">// 06 — CONTACT</p>
           <div class="section-head__grid">
             <h2 class="display">LET'S<br />BUILD<br />SOMETHING<span class="accent">.</span></h2>
-            <p class="lede">I'm always open to discussing new opportunities, interesting projects, or just talking about technology.</p>
+            <p class="lede">Always happy to talk embedded audio, Bluetooth, music tech, or whatever you're building.</p>
           </div>
         </div>
 
@@ -301,31 +335,31 @@
               <li>
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z M3 6l9 7 9-7" /></svg>
                 <span class="muted">Email</span>
-                <a href="mailto:diego@example.com" class="copy" data-copy="diego@example.com">diego@example.com</a>
+                <a href="mailto:cmdiegoapp@gmail.com" data-copy="cmdiegoapp@gmail.com">cmdiegoapp@gmail.com</a>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" /></svg>
                 <span class="muted">GitHub</span>
-                <a href="https://github.com/diegoconterno" target="_blank" rel="noopener">github.com/diegoconterno</a>
+                <a href="https://github.com/cmdiego" target="_blank" rel="noopener">github.com/cmdiego</a>
               </li>
               <li>
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4v11H4z M6 4.5a2 2 0 1 1 0 .1 M11 9h4v1.5c.6-1 2-1.8 3.5-1.8 2.5 0 3.5 1.6 3.5 4.3v7h-4v-6.2c0-1.3-.5-2-1.6-2s-1.9.8-1.9 2V20h-3.5z" /></svg>
                 <span class="muted">LinkedIn</span>
-                <a href="https://linkedin.com/in/diegoconterno" target="_blank" rel="noopener">linkedin.com/in/diegoconterno</a>
+                <a href="https://www.linkedin.com/in/diegoconterno" target="_blank" rel="noopener">linkedin.com/in/diegoconterno</a>
               </li>
             </ul>
           </div>
           <div class="panel reveal">
             <p class="panel__title">// STATUS</p>
-            <p class="status-line"><span class="dot dot--live"></span><span class="accent">Available for opportunities</span></p>
-            <p class="muted status-sub">Open to full-time roles, contract work, and interesting projects.</p>
-            <a href="mailto:diego@example.com" class="btn btn--solid btn--block">SEND A MESSAGE <span aria-hidden="true">→</span></a>
+            <p class="status-line"><span class="dot dot--live"></span><span class="accent">Open to connecting</span></p>
+            <p class="muted status-sub">Questions about a project, a collaboration idea, or just want to talk shop — reach out.</p>
+            <a href="mailto:cmdiegoapp@gmail.com" class="btn btn--solid btn--block">SEND A MESSAGE <span aria-hidden="true">→</span></a>
           </div>
         </div>
 
         <footer class="footer">
           <span>© <span id="year"></span> DIEGO CONTERNO</span>
-          <span class="muted">BUILT WITH HTML, CSS &amp; TOO MUCH COFFEE</span>
+          <a href="https://github.com/cmdiego/portfolio-website" class="muted" target="_blank" rel="noopener">VIEW SOURCE ↗</a>
           <a href="#home" class="muted">BACK TO TOP ↑</a>
         </footer>
       </div>
@@ -340,17 +374,18 @@
           <button class="btn btn--ghost btn--sm" data-close>← BACK TO PROJECTS</button>
           <div class="case__pager">
             <button class="btn btn--ghost btn--sm" data-step="-1" aria-label="Previous project">←</button>
-            <span class="muted small" id="case-index">01/04</span>
+            <span class="muted small" id="case-index"></span>
             <button class="btn btn--ghost btn--sm" data-step="1" aria-label="Next project">→</button>
             <button class="btn btn--ghost btn--sm case__x" data-close aria-label="Close">✕</button>
           </div>
         </div>
         <div class="panel case__hero">
           <div class="case__intro">
-            <p class="eyebrow" id="case-crumb">// 03 — PROJECTS / HYDRA</p>
-            <h2 class="display display--case" id="case-title">HYDRA</h2>
+            <p class="eyebrow" id="case-crumb"></p>
+            <h2 class="display display--case" id="case-title"></h2>
             <p class="lede" id="case-tagline"></p>
             <ul class="tags" id="case-tags"></ul>
+            <p class="case__note" id="case-note"></p>
           </div>
           <div class="case__media" id="case-media"></div>
         </div>
