@@ -126,6 +126,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .eyebrow { font-size: 12px; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 20px; }
 
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.grid-2 > .panel { margin-top: 0; } /* gap handles spacing; keeps side-by-side panels equal height */
 .grid-2--wide { grid-template-columns: 1.45fr 1fr; }
 
 .display {
